@@ -6,8 +6,12 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+return groceries.values.flatten
 
-  
+
 
 end
+
+# * Use the `.values` method to collect all of the values of the grocery type keys (`:dairy`, `:vegetables`, `:meat`, `:grains`).
+# The method should return a *one-dimensional* (or "flat") array that *only* includes
+#  the values (groceries such as "milk" and "carrots") without their keys.
